@@ -1,0 +1,194 @@
+body { 
+    font-family: 'Nova Mono', cursive; 
+    font-size:12pt;
+	width: 50%;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+h3 {
+	font-family: 'Nova Mono', cursive; 
+	font-size: 18px;
+	color: #444444;
+	text-align: center;
+}
+/* Topmatter */
+.topmatter {
+    height:210px;
+	width: auto;   
+}
+.bottommatter{
+	border: 1px dashed #ccc;
+    height: 70px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+/* For the left 'Guess A Letter!' and 'Guessed Letter' boxes. */
+.side-container {
+    margin-top:45px;
+    margin-left:130px;
+    width:170px;
+    text-align:center;
+}
+.container-title {
+    color:#6f5a2d;
+}
+.input-area {
+    width:75px;
+    height:31px;
+    margin:auto;
+    padding:3pt;
+    border: 1px #444 solid;
+    background:#ddd;
+}
+#letter-input {
+    border:1px #6f5a2d solid;
+    width:20pt;
+    font-size:14pt;
+    text-align:center;
+}
+.guessed-letter {
+    color:#792c15;
+}
+/* Word Box */
+.word-box {
+    width:250px;
+    margin:auto;
+    text-align:center;
+}
+.word-display {
+    background:#bbb;
+    border:1px #444 solid;
+    height:31px;
+    padding:3pt;
+}
+.shown-letter {
+    border-bottom: 3px #000 solid;
+    padding: 0 2px;
+    margin: 0 2px;
+    color:#1c2025;
+}
+/* Hangman Area */
+.hang-container {
+    margin-top:-10px;
+    margin-right: 90px; 
+    width:200px;
+    height:205px;
+    float:right;
+}
+.scaffolding-top {
+    width:108px;
+    height:5px;
+    background:#332915;
+}
+.scaffolding-left {
+    width:5px;
+    height:200px;
+    background:#332915;
+    float:left;
+}
+.scaffolding-base {
+    width:150px;
+    height:5px;
+    background:#332915;
+}
+.draw-area {
+    width:200px;
+    height:200px;
+    text-align:center;
+}
+.rope {
+    margin:auto;
+    height:25px;
+    width:5px;
+    background:#ebe2ce;
+}
+/* .head {
+    margin:auto;
+    height:30px;
+    width:30px;
+    background:#444;
+    -webkit-border-radius: 15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
+}
+/* One Div Smiley - Start */
+
+.head {
+	border-radius: 1em;
+-webkit-box-shadow: 0 0 0 .4em #2C2C2C, inset 0 0 0 .1em #2C2C2C;
+box-shadow: 0 0 0 .4em #2C2C2C, inset 0 0 0 .1em #2C2C2C;
+height: 2em;
+position: relative;
+width: 2em;
+margin: auto;
+}
+
+.head::after, .head::before {
+background-image: -ms-radial-gradient(transparent 35%, #2C2C2C 35%);
+background-image: -webkit-radial-gradient(transparent 35%, #2C2C2C 35%);
+background-image: -moz-radial-gradient(transparent 35%, #2C2C2C 35%);
+background-image: -o-radial-gradient(transparent 35%, #2C2C2C 35%);
+background-image: radial-gradient(transparent 35%, #2C2C2C 35%);
+content: '';
+height: 1em;
+position: absolute;
+top: 0;
+width: 1em;
+}
+
+.head:after {
+	border-radius: 1em 0 0 0;
+	left: 0;
+}
+
+.head:before {
+	border-radius: 0 1em 0 0;
+	right: 0;
+}
+
+/* One Div Smiley - End */
+.armbox {
+    margin:auto;
+    width:100px;
+}
+.leftarm {
+    float:left;
+    height:10px;
+    width:45px;
+    background:#444;
+}
+.rightarm {
+    float:right;
+    height:10px;
+    width:45px;
+    background:#444;
+}
+.torso {
+    margin:auto;
+    width:10px;
+    height:50px;
+    background:#444;
+}
+.legbox {
+    margin:auto;
+    height:60px;
+    width:30px;
+}
+.leftleg {
+    float:left;
+    width:10px;
+    height:60px;
+    background:#444;
+}
+.rightleg {
+    float:right;
+    width:10px;
+    height:60px;
+    background:#444;
+}
+.pelvis {
+    margin:auto;
+    height:10px;
+    width:10px;
+    background:#444;
+}
